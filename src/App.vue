@@ -1,6 +1,9 @@
 <template>
-  <div class="container">
-    Logo & Title
+  <div class="appWrapper">
+    <header>
+      Logo
+      <h1>Academic Fit Report</h1>
+    </header>
     <AcademicFitReport/>
   </div>
 </template>
@@ -15,3 +18,11 @@ export default {
   },
 };
 </script>
+
+<style>
+
+.appWrapper {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+</style>
