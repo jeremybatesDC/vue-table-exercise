@@ -24,9 +24,9 @@
           "ranking": 151,
           "gpa": {
             "min": 2.7,
-            "25%": 3.28,
-            "50%": 3.52,
-            "75%": 3.8,
+            "twentyfifth": 3.28,
+            "median": 3.52,
+            "seventyfifth": 3.8,
             "max": 4.0
           },
           "sat": {
@@ -51,9 +51,9 @@
           "ranking": 160,
           "gpa": {
             "min": 2.0,
-            "25%": 3.39,
-            "50%": 3.6,
-            "75%": 3.88,
+            "twentyfifth": 3.39,
+            "median": 3.6,
+            "seventyfifth": 3.88,
             "max": 4.0
           },
           "sat": {
@@ -78,9 +78,9 @@
           "ranking": 12,
           "gpa": {
             "min": 2.2,
-            "25%": 3.3,
-            "50%": 3.6,
-            "75%": 3.9,
+            "twentyfifth": 3.3,
+            "median": 3.6,
+            "seventyfifth": 3.9,
             "max": 4.0
           },
           "sat": {
@@ -105,9 +105,9 @@
           "ranking": 112,
           "gpa": {
             "min": 2.7,
-            "25%": 3.49,
-            "50%": 3.63,
-            "75%": 3.92,
+            "twentyfifth": 3.49,
+            "median": 3.63,
+            "seventyfifth": 3.92,
             "max": 4.0
           },
           "sat": {
@@ -132,9 +132,9 @@
           "ranking": 288,
           "gpa": {
             "min": 2.6,
-            "25%": 3.5,
-            "50%": 3.71,
-            "75%": 3.94,
+            "twentyfifth": 3.5,
+            "median": 3.71,
+            "seventyfifth": 3.94,
             "max": 4.0
           },
           "sat": {
@@ -159,9 +159,9 @@
           "ranking": 32,
           "gpa": {
             "min": 2.75,
-            "25%": 3.45,
-            "50%": 3.74,
-            "75%": 4.0,
+            "twentyfifth": 3.45,
+            "median": 3.74,
+            "seventyfifth": 4.0,
             "max": 4.0
           },
           "sat": {
@@ -186,9 +186,9 @@
           "ranking": 88,
           "gpa": {
             "min": 2.8,
-            "25%": 3.5,
-            "50%": 3.75,
-            "75%": 3.94,
+            "twentyfifth": 3.5,
+            "median": 3.75,
+            "seventyfifth": 3.94,
             "max": 4.0
           },
           "sat": {
@@ -213,9 +213,9 @@
           "ranking": 2,
           "gpa": {
             "min": 2.9,
-            "25%": 3.63,
-            "50%": 3.8,
-            "75%": 4.0,
+            "twentyfifth": 3.63,
+            "median": 3.8,
+            "seventyfifth": 4.0,
             "max": 4.0
           },
           "sat": {
@@ -240,9 +240,9 @@
           "ranking": 128,
           "gpa": {
             "min": 2.46,
-            "25%": 3.4,
-            "50%": 3.8,
-            "75%": 3.94,
+            "twentyfifth": 3.4,
+            "median": 3.8,
+            "seventyfifth": 3.94,
             "max": 4.0
           },
           "sat": {
@@ -267,9 +267,9 @@
           "ranking": 71,
           "gpa": {
             "min": 2.4,
-            "25%": 3.5,
-            "50%": 3.8,
-            "75%": 4.0,
+            "twentyfifth": 3.5,
+            "median": 3.8,
+            "seventyfifth": 4.0,
             "max": 4.0
           },
           "sat": {
@@ -294,9 +294,9 @@
           "ranking": 39,
           "gpa": {
             "min": 2.7,
-            "25%": 3.53,
-            "50%": 3.82,
-            "75%": 4.0,
+            "twentyfifth": 3.53,
+            "median": 3.82,
+            "seventyfifth": 4.0,
             "max": 4.0
           },
           "sat": {
@@ -321,9 +321,9 @@
           "ranking": 12,
           "gpa": {
             "min": 2.6,
-            "25%": 3.58,
-            "50%": 3.82,
-            "75%": 4.0,
+            "twentyfifth": 3.58,
+            "median": 3.82,
+            "seventyfifth": 4.0,
             "max": 4.0
           },
           "sat": {
@@ -348,9 +348,9 @@
           "ranking": 26,
           "gpa": {
             "min": 2.0,
-            "25%": 3.56,
-            "50%": 3.86,
-            "75%": 4.0,
+            "twentyfifth": 3.56,
+            "median": 3.86,
+            "seventyfifth": 4.0,
             "max": 4.0
           },
           "sat": {
@@ -375,9 +375,9 @@
           "ranking": 11,
           "gpa": {
             "min": 2.6,
-            "25%": 3.7,
-            "50%": 3.96,
-            "75%": 4.0,
+            "twentyfifth": 3.7,
+            "median": 3.96,
+            "seventyfifth": 4.0,
             "max": 4.0
           },
           "sat": {

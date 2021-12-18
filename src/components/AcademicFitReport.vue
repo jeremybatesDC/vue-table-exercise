@@ -29,17 +29,23 @@
         </li>
       </ul>
     </div>
+    <AthleteDataTable :athlete="athlete"/>
   </div>
 </template>
 
 <script>
+import AthleteData from "@/assets/data.json";
+import AthleteDataTable from "@/components/AthleteDataTable/AthleteDataTable.vue";
+
 export default {
   name: "AcademicFitReport",
-  props: {
-    athlete: {
-      type: Object,
-      required: false
-    }
+  components: {
+    AthleteDataTable
+  },
+  data() {
+    return {
+      athlete: AthleteData.data[0]
+    };
   }
 };
 </script>
