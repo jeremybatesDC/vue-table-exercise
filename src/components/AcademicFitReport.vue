@@ -1,31 +1,31 @@
 <template>
   <div>
-    <div class="info">
-      <h2>{{athlete.name}}</h2>
+    <div class="text-sm">
+      <h2 class="text-base text-cyan font-bold">{{athlete.name}}</h2>
       <ul>
         <li>
-          <label>Sport:</label>
-          {{athlete.sport}}
+          <strong>Sport:</strong>
+          <span class="text-charcoal">{{athlete.sport}}</span>
         </li>
         <li>
-          <label>Class:</label>
-          {{athlete.grad_year}}
+          <strong>Class:</strong>
+          <span class="text-charcoal">{{athlete.grad_year}}</span>
         </li>
         <li>
-          <label>Club:</label>
-          {{athlete.club.name}}
+          <strong>Club:</strong>
+          <span class="text-charcoal">{{athlete.club.name}}</span>
         </li>
         <li>
-          <label>High School:</label>
-          {{athlete.high_school.name}}
+          <strong>High School:</strong>
+          <span class="text-charcoal">{{athlete.high_school.name}}</span>
         </li>
         <li>
-          <label>GPA:</label>
-          {{athlete.gpa}}
+          <strong>GPA:</strong>
+          <span class="text-charcoal">{{athlete.gpa}}</span>
         </li>
         <li>
-          <label>Desired Major:</label>
-          {{athlete.major}}
+          <strong>Desired Major:</strong>
+          <span class="text-charcoal">{{athlete.major}}</span>
         </li>
       </ul>
     </div>
