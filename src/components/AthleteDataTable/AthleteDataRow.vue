@@ -13,17 +13,17 @@
       {{school.ranking}}
     </td>
     <td class="text-center">
-      {{school.gpa.min}}
+      {{Number(school.gpa.min).toFixed(2)}}
     </td>
     <td class="text-center">
-      {{school.gpa.twentyfifth}}
+      {{Number(school.gpa.twentyfifth).toFixed(2)}}
     </td>
     <AthleteGPAColumn class="text-center" :gpa="school.gpa.median"/>
     <td class="text-center">
-      {{school.gpa.seventyfifth}}
+      {{Number(school.gpa.seventyfifth).toFixed(2)}}
     </td>
     <td class="text-center">
-      {{school.gpa.max}}
+      {{Number(school.gpa.max).toFixed(2)}}
     </td>
     <td class="text-center">
       {{school.sat.reading.min}}-{{school.sat.reading.max}}

@@ -1,5 +1,5 @@
 <template>
-  <td>{{gpa}}</td>
+  <td>{{Number(gpa).toFixed(2)}}</td>
 </template>
 
 <script>
