@@ -1,8 +1,8 @@
 <template>
   <tr>
-    <td>
+    <th scope="row">
       {{school.school}}
-    </td>
+    </th>
     <td>
       {{school.division}}
     </td>
