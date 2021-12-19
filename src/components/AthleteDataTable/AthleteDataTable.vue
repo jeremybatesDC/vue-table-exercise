@@ -31,7 +31,7 @@
       </thead>
       <tbody class="text-charcoal">
         <!-- for each record, add a row component -->
-        <AthleteDataRow v-for="(school, index) in athlete.report" :key="index" :school="school"/>
+        <AthleteDataRow v-for="(school, index) in athlete.report" :key="index" :school="school" :athleteGpa="athlete.gpa"/>
       </tbody> 
       <tfoot>
         <tr>

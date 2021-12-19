@@ -18,7 +18,7 @@
     <td class="text-center">
       {{Number(school.gpa.twentyfifth).toFixed(2)}}
     </td>
-    <AthleteGPAColumn class="text-center" :gpa="school.gpa.median"/>
+    <AthleteGPAColumn class="text-center" :schoolGpa="school.gpa.median" :athleteGpa="athleteGpa"/>
     <td class="text-center">
       {{Number(school.gpa.seventyfifth).toFixed(2)}}
     </td>
@@ -48,6 +48,10 @@ export default {
   props: {
     school: {
       type: Object,
+      required: false
+    },
+    athleteGpa: {
+      type: Number,
       required: false
     }
   }

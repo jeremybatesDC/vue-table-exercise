@@ -21,6 +21,11 @@ export default {
 
 <style>
 
+/* manipulate with JS */
+:root {
+  --avatarBgColor: red;
+}
+
 .appWrapper {
   font-family: 'Roboto', Arial, sans-serif;
 }
