@@ -1,36 +1,34 @@
 <template>
 <div class="text-sm flex">
-<!-- v-if image -->
-<!-- v-else avatar -->
     <figure class="flex items-center shrink-0">
         <img v-if="athlete.profile_image" loading="lazy" encoding="async" class="rounded-full" :alt="athlete.name" width="64" height="64" :src="athlete.profile_image"/>
-        <span ref="avatar" class="avatar flex w-16 h-16 rounded-full text-lg font-bold text-center justify-center items-center">{{initials()}}</span>
+        <span v-else ref="avatar" class="avatar flex w-16 h-16 rounded-full text-lg font-bold text-center justify-center items-center">{{initials()}}</span>
     </figure>
     <div class="pl-4">
         <h2 class="text-base text-cyan font-bold">{{athlete.name}}</h2>
         <ul class="profile__ul md:columns-2">
             <li>
-                <strong>Sport:</strong>
+                <strong>Sport: </strong>
                 <span class="text-charcoal">{{athlete.sport}}</span>
             </li>
             <li>
-                <strong>Class:</strong>
+                <strong>Class: </strong>
                 <span class="text-charcoal">{{athlete.grad_year}}</span>
             </li>
             <li>
-                <strong>Club:</strong>
+                <strong>Club: </strong>
                 <span class="text-charcoal">{{athlete.club.name}}</span>
             </li>
             <li>
-                <strong>High School:</strong>
+                <strong>High School: </strong>
                 <span class="text-charcoal">{{athlete.high_school.name}}</span>
             </li>
             <li>
-                <strong>GPA:</strong>
+                <strong>GPA: </strong>
                 <span class="text-charcoal">{{athlete.gpa}}</span>
             </li>
             <li>
-                <strong>Desired Major:</strong>
+                <strong>Desired Major: </strong>
                 <span class="text-charcoal">{{athlete.major}}</span>
             </li>
         </ul>
