@@ -1,51 +1,35 @@
 <template>
-  <div>
-    <div class="info">
-      <h2>{{athlete.name}}</h2>
-      <ul>
-        <li>
-          <label>Sport:</label>
-          {{athlete.sport}}
-        </li>
-        <li>
-          <label>Class:</label>
-          {{athlete.grad_year}}
-        </li>
-        <li>
-          <label>Club:</label>
-          {{athlete.club.name}}
-        </li>
-        <li>
-          <label>High School:</label>
-          {{athlete.high_school.name}}
-        </li>
-        <li>
-          <label>GPA:</label>
-          {{athlete.gpa}}
-        </li>
-        <li>
-          <label>Desired Major:</label>
-          {{athlete.major}}
-        </li>
-      </ul>
-    </div>
-    <AthleteDataTable :athlete="athlete"/>
+<div class="border-t-8 border-cyan" >
+  <div class="flex p-2">
+    <header class="flex flex-col grow order-last text-right">
+      <figure class="flex justify-end">
+        <img loading="lazy" encoding="async" alt="SportsRecruits Insights Logo" width="145" height="36" src="../../public/sr_insights_logo.png"/>
+      </figure>
+      <h1 class="text-sm text-charcoal">Academic Fit Report</h1>
+    </header>
+    <AthleteProfile :athlete="athlete"/>
   </div>
+  <AthleteDataTable :athlete="athlete"/>
+</div>
 </template>
 
 <script>
 import AthleteData from "@/assets/data.json";
+import AthleteProfile from "@/components/AthleteDataTable/AthleteProfile.vue";
+
 import AthleteDataTable from "@/components/AthleteDataTable/AthleteDataTable.vue";
 
 export default {
   name: "AcademicFitReport",
   components: {
+    AthleteProfile,
     AthleteDataTable
   },
   data() {
     return {
-      athlete: AthleteData.data[0]
+      athlete: AthleteData.data[0],
+      lastInitial: null,
     };
-  }
+  },
 };
 </script>

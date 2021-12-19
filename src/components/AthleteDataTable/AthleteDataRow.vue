@@ -1,38 +1,37 @@
 <template>
   <tr>
-    <td>
+    <th scope="row" class="text-left py-2 px-1">
       {{school.school}}
-    </td>
-    <td>
+    </th>
+    <td class="text-center">
       {{school.division}}
     </td>
-    <td>
+    <td class="text-left">
       {{school.conference}}
     </td>
-    <td>
+    <td class="text-center">
       {{school.ranking}}
     </td>
-    <td>
-      {{school.gpa.min}}
+    <td class="text-center">
+      {{Number(school.gpa.min).toFixed(2)}}
     </td>
-    <td>
-      {{school.gpa.twentyfifth}}
+    <td class="text-center">
+      {{Number(school.gpa.twentyfifth).toFixed(2)}}
     </td>
-    <AthleteGPAColumn :gpa="school.gpa.median"/>
-    <td>
-      {{school.gpa.seventyfifth}}
+    <AthleteGPAColumn class="text-center" :schoolGpa="school.gpa.median" :athleteGpa="athleteGpa"/>
+    <td class="text-center">
+      {{Number(school.gpa.seventyfifth).toFixed(2)}}
     </td>
-    <td>
-      {{school.gpa.max}}
+    <td class="text-center">
+      {{Number(school.gpa.max).toFixed(2)}}
     </td>
-    <td>
+    <td class="text-center">
       {{school.sat.reading.min}}-{{school.sat.reading.max}}
     </td>
-    <td>
+    <td class="text-center">
       {{school.sat.math.min}}-{{school.sat.math.max}}
     </td>
-
-    <td>
+    <td class="text-center">
       {{school.act.min}}-{{school.act.max}}
     </td>
   </tr>
@@ -49,6 +48,10 @@ export default {
   props: {
     school: {
       type: Object,
+      required: false
+    },
+    athleteGpa: {
+      type: Number,
       required: false
     }
   }
